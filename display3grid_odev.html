@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      min-height: 100vh;
+      display: grid;
+      grid-template-rows: 10% 70% 20%;
+      margin: 4px;
+      border: 2px solid black;
+    }
+    nav{
+      background-color: skyblue;
+      border: 2px solid black;
+      margin: 4px;
+
+    }
+
+    footer{
+      background-color: green;
+      border: 2px solid black;
+      margin: 4px;
+      text-align: center;
+      
+    }
+
+    main{
+      display: flex;
+      margin: 2px;
+      gap: 2px;
+    }
+
+    .kutu1{
+      display: flex; grid-row: span;
+      background-color: green; 
+      height: 25%;
+      border: 2px solid black;
+      margin: 2px;
+      text-align: center;
+      
+    }
+
+    .kutu2{
+      background: skyblue;  
+      height: 73%;
+      border: 2px solid black;
+      margin: 2px;
+      }
+
+    .kdr{
+      height: 100%;
+      width: 100%;
+    }
+
+  </style>
+</head>
+<body>
+  <nav></nav>
+
+  <main>
+
+
+    <div class="kdr d-flex grid-row">
+      <div class="kutu1"> <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, dicta minus a eaque quo, laboriosam, sequi ullam ea vitae illum deserunt maxime consectetur quibusdam expedita dolore rerum aperiam corporis! Ducimus eum debitis provident nihil exercitationem magnam doloribus laboriosam nemo ipsum.</h3> </div>
+      <div class="kutu2"></div>
+    </div>
+  
+
+  
+    <div class="kdr d-flex grid-row: span">
+      <div class="kutu2"></div>
+      <div class="kutu1"> <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non eum deserunt eveniet perferendis earum iste! Sint, minima aperiam consectetur enim aliquid nihil similique aspernatur facilis! </h3> </div>
+    </div>
+    
+
+</main>
+
+
+  <footer>
+    <p> <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus temporibus necessitatibus rem, possimus neque voluptate?<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum eveniet rerum consequatur praesentium. <br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, corporis atque?
+    </h3> 
+    </p>
+  </footer>
+
+</body>
+</html>
